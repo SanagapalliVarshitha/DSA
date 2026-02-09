@@ -19,7 +19,6 @@ function balance(arr,left,right)
     inorder(root.left,arr)
     arr.push(root.val)
     inorder(root.right,arr)
-    
  }
 var balanceBST = function(root) {
     let res=[]
